@@ -13,7 +13,7 @@ menu:
 
 
 
-UniAgent is a series of scientific events and shared tasks on agentic AI in university administration.
+UniAgent runs events and shared tasks on agentic AI in a university's digital twin.
 
 <!--more-->
 
