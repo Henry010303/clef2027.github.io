@@ -13,20 +13,17 @@ menu:
 
 
 
-UniAgent runs events and shared tasks on agentic AI in a university's digital twin.
+DESCRIPTION: UniAgent runs events and shared tasks on agentic AI in a university's digital twin.
 
 <!--more-->
 
 ## Tasks
 
-The UniAgent Lab features two tasks of increasing difficulty on administrative cases of the University of Kassel, such as business travel, expense reimbursement, and procurement:
+The UniAgent Lab opens up a digital twin of a real university administration to AI agents:
 
 {{< accordion  open_all="true" >}}
-  {{< accordion-item title="Retrieval" >}}
-  Participants retrieve the documents relevant to the current state of an administrative case.
-  {{< /accordion-item >}}
-  {{< accordion-item title="Solving" >}}
-  Participants build an agent that solves an administrative case with the provided tools and logs its actions.
+  {{< accordion-item title="Evaluating Agentic AI in Real Organizations" >}}
+Can your agent handle bureaucracy? Participants build agents that take on real administrative cases, such as a business trip, guided by the university's actual rules and documents. Agents must find the regulations that matter for a case and check requests for compliance, just as administrative staff do every day. CLEF 2027 raises the bar in two directions: richer evaluation, with expert-defined subtasks, reference solutions, and validated LLM judges, and more interaction, with agents acting inside the twin.
   {{< /accordion-item >}}
 {{< /accordion >}}
 
