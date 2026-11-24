@@ -13,7 +13,7 @@ menu:
 
 
 
-DESCRIPTION: UniAgent runs events and shared tasks on agentic AI in a university's digital twin.
+UniAgent runs events and shared tasks on agentic AI in a university's digital twin.
 
 <!--more-->
 
