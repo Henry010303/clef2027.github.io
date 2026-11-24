@@ -1,8 +1,8 @@
 ---
 title: "CheckThat!"
-draft: true
+draft: false
 params:
-  subtitle: "Developing technologies for identifying and verifying claims"
+  subtitle: "The 10th edition: From Scientific Evidence to Media Credibility, Temporal Framing, and Fact-Checking Narratives"
   url: http://checkthat.gitlab.io/clef2026/
 menu:
   main:
@@ -13,7 +13,7 @@ menu:
 
 
 
-The main objective of the lab is to advance the development of innovative technologies combating disinformation and manipulation efforts in online communication across a multitude of languages and platforms. The 9th edition of the CheckThat! lab at CLEF targets three tasks: (i) source retrieval for scientific web claims, (ii) fact-checking numerical claims, and (iii) generating full fact-checking articles.
+The main objective of the lab is to advance the development of innovative technologies combating disinformation and manipulation efforts in online communication across a multitude of languages and platforms. The 10th edition of the CheckThat! lab at CLEF targets four tasks: (i) source retrieval for scientific web claims, (ii) media profiling via first impression, (iii) generating full fact-checking articles, and (iv) temporal framing detection.
 
 <!--more-->
 
@@ -25,11 +25,14 @@ The CheckThat! Lab features three different tasks:
   {{< accordion-item title="Source Retrieval for Scientific Web Claims" >}}
   Given a social media post that contains a scientific claim and an implicit reference to a scientific paper (mentions it without a URL), retrieve the mentioned paper from a pool of candidate papers.
   {{< /accordion-item >}}
-  {{< accordion-item title="Fact-Checking Numerical Claims" >}}
-  This task involves verifying naturally occurring claims containing numerical quantities and temporal expressions by improving the reasoning process of Large Language Models (LLMs) through test-time scaling.
+  {{< accordion-item title="Media Profiling via First Impression" >}}
+  Given a single full-page screenshot of a news website’s landing page, predict the source’s factuality of reporting and political bias.
   {{< /accordion-item >}}
   {{< accordion-item title="Generating Full Fact-Checking Articles" >}}
-  Given a claim, its veracity, and a set of evidence documents consulted for fact-checking the claim, generate a full fact-checking article. 
+  Given a fact-checked claim, its veracity, and a set of evidence documents consulted for claim verification, generate a full fact-checking article.
+  {{< /accordion-item >}}
+  {{< accordion-item title="Temporal Framing Detection" >}}
+  Given a sentence from a news article, predict whether it contains temporal framing and, if so, assign one or more of eight temporal-frame labels.
   {{< /accordion-item >}}
 {{< /accordion >}}
 
