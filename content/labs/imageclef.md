@@ -1,9 +1,9 @@
 ---
 title: "ImageCLEF"
-draft: true
+draft: false
 params:
-  subtitle: "Multimodal challenge in CLEF"
-  url: https://www.imageclef.org/2026/
+  subtitle: "Multimodal Challenge in CLEF"
+  url: "https://www.imageclef.org/2027/"
 menu:
   main:
     identifier: "lab-imageclef"
@@ -11,34 +11,43 @@ menu:
     weight: 80
 ---
 
-ImageCLEF is an ongoing evaluation event that started in 2003, promoting the evaluation of technologies for annotating, indexing, retrieving, and generating multimodal data, and aiming to provide access to large collections of data across a veriety of scenarios, domains and contexts.
+ImageCLEF brings researchers together around multimodal challenges, from medical tasks involving image captioning, synthetic medical images, endoscopy question answering, and dermatology reasoning, to deepfake generation and detection, multilingual reasoning, pictogram translation, and chart and table understanding.
 
 <!--more-->
 
 ## Tasks
 
-The ImageCLEF Lab features five different tasks:
+The ImageCLEF Lab features five main tasks:
 
-{{< accordion  open_all="true" >}}
-  {{< accordion-item title="ImageCLEF Medical" >}}
-  The task approaches a wide array of problems in the medical field, like concept detection, caption prediction, explainability, security in AI generated images, tumor typing correction, medical report discrepancy summarization or visual question answering and synthetic medical image generation.
-  {{< /accordion-item >}}
-  {{< accordion-item title="ToPicto" >}}
-  Text to pictogram translation and pictogram sequence prediction.
-  {{< /accordion-item >}}
-  {{< accordion-item title="MultimodalReasoning" >}}
-  Multilingual, Interdisciplinary visual question answering.
-  {{< /accordion-item >}}
-  {{< accordion-item title="AI4AGRI" >}}
-  Prediction of agricultural potential before planting and crop type identification.
-  {{< /accordion-item >}}
-  {{< accordion-item title="ImageCLEF-Deepfake" >}}
-  Detection and generation of deepfakes in visual and audio data.
-  {{< /accordion-item >}}
+{{< accordion open_all="true" >}}
+{{< accordion-item title="ImageCLEF Medical" >}}
+A collection of four medical subtasks:
+
+- **Caption**: concept detection and caption prediction for radiology images, with rare and hierarchical concepts, synthetic data, and explanations that link concepts to image regions.
+- **GANs**: security and privacy of synthetic medical images.
+- **MEDVQA-GI**: visual question answering and multimodal explanations for gastrointestinal endoscopy images.
+- **MEDIQA-MAGIC**: dermatology lesion segmentation and open-ended question answering, based on doctor-patient dialogues and clinical images.
+{{< /accordion-item >}}
+
+{{< accordion-item title="ToPicto" >}}
+Translation of English text into sequences of pictograms for Augmentative and Alternative Communication (AAC), using a new low-resource dataset.
+{{< /accordion-item >}}
+
+{{< accordion-item title="MultimodalReasoning" >}}
+Multilingual visual question answering on exam questions across different subjects and difficulty levels, with open-ended answers and a new PDF-based question answering subtask.
+{{< /accordion-item >}}
+
+{{< accordion-item title="ImageCLEF-Deepfake" >}}
+Generation and detection of deepfakes in images and audio, with a new audio-visual subtask on short videos with audio.
+{{< /accordion-item >}}
+
+{{< accordion-item title="CvTR QA" >}}
+Multilingual question answering over charts and tables, given as images, source code, or plain text.
+{{< /accordion-item >}}
 {{< /accordion >}}
 
 ## Organizers
 
-- Bogdan Ionescu (Politehnica University of Bucharest, Romania)
-- Henning Müller (HES-SO, Switzerland) 
-- Dan-Cristian Stanciu (Politehnica University of Bucharest, Romania)
+- Bogdan Ionescu (National University of Science and Technology Politehnica Bucharest, Romania)
+- Henning Müller (HES-SO, Switzerland)
+- Dan-Cristian Stanciu (National University of Science and Technology Politehnica Bucharest, Romania)
