@@ -38,7 +38,7 @@ The PAN Lab features ten different tasks:
   Given a generated document and a corpus, retrieve all sources of the document from the corpus.
   {{< /accordion-item >}}
   {{< accordion-item title="Authorship Verification Efficiency" >}}
-  Develop robust models that are efficient (time and memory).
+  Authorship Verification Efficiency (AVE) benchmarks how well AV systems balance predictive quality with fast and lightweight inference on German and English texts.
   {{< /accordion-item >}}
   {{< accordion-item title="Impostor Generation" >}}
   Develop models that generate impostor documents for the Impostors Method.
