@@ -23,7 +23,7 @@ The UniAgent Lab opens up a digital twin of a real university administration to 
 
 {{< accordion  open_all="true" >}}
   {{< accordion-item title="Evaluating Agentic AI in Real Organizations" >}}
-Can your agent handle bureaucracy? Participants build agents that take on real administrative cases, such as a business trip, guided by the university's actual rules and documents. Agents must find the regulations that matter for a case and check requests for compliance, just as administrative staff do every day. CLEF 2027 raises the bar in two directions: richer evaluation, with expert-defined subtasks, reference solutions, and validated LLM judges, and more interaction, with agents acting inside the twin.
+Can your agent handle bureaucracy? Participants build agents that take on real administrative cases, such as a business trip, guided by the university's actual rules and documents. Agents must find the regulations that matter for a case and check requests for compliance, just as administrative staff do every day. CLEF 2027 raises the bar: richer evaluation, with expert-defined subtasks, reference solutions, further evaluation of reasoning traces and more interactivity for the acting agents.
   {{< /accordion-item >}}
 {{< /accordion >}}
 
